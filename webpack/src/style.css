@@ -1,0 +1,173 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+
+    padding: 0vh 0vw;
+    border: 0;
+    margin: 0;
+}
+
+/*Container*/
+
+.container{
+
+    background-color: seagreen;
+    width: 96vw ;
+    height: 96vh;
+    padding: 2vh 2vw;
+}
+/* HEADER */
+
+header{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: lightseagreen;
+    height: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    header h1{
+
+        font-size: 300%;
+        margin: 2px;
+        border: 0;
+        padding: 0;
+        color: black;
+
+    }
+
+    header h2{
+        margin: 0px;
+        font-size: 200%;
+        color: black;
+    }
+
+/* CONTAINER */
+
+#container{
+    width: 100%;
+    height: 68%;
+    background-color: lightseagreen;
+    display: flex;
+}
+    #options{
+
+        background-color: lightseagreen;
+        padding: 0vh;
+        border: 1px solid;
+        width: 15%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+        #options button{
+
+            font-size: 100%;
+            height: 11%;
+            width: 70%;
+            border-radius: 12px;
+            margin-top: 5vh;
+
+        }
+
+    #tasks{
+        background-color: lightgrey;
+        border: 1px solid;
+        width: 85%;
+        height: 100%;
+        overflow: auto;
+
+
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        /*font-size: 3.3vh;*/
+        font-size: 130%;
+    }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+            .delete-button{
+                height: 25px;
+                width: 80px;
+
+            }
+
+
+/* FOOTER */
+
+footer{
+    height: 16%;
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+    footer button{
+        font-size: 1.4vw;
+        height: 7vh;
+        width: 8vw;
+        border-radius: 12px;
+    }
+
+
+/* MODAL */
+
+/*Add Task*/
+dialog{
+    height: 25%;
+    width: 40%;
+    padding: 8px;
+}
+
+    dialog button{
+        margin: 0px;
+
+    }
+
+    .modal-content{
+        font-size: 20px;
+        height: 60%;
+        width: 90%;
+        margin: 15px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    form{
+        width:100% ;
+        height: 94%;
+        display: flex;
+        gap: 3%;
+        font-size: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    form input, select{
+        height: 27%;
+    }
+    form button{
+        height: 30%;
+    }
+
